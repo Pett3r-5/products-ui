@@ -1,0 +1,7 @@
+.home-container {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    border: 1px black solid;
+    border-radius: 10px;
+}
