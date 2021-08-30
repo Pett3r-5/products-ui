@@ -2,5 +2,18 @@
     height: 100vh;
     background-color: rgb(247, 181, 247);
     display: grid;
-    
+    -webkit-animation:name 10s infinite;
+}
+
+
+@-webkit-keyframes name {
+    0% {background-color:rgb(192, 104, 226);}
+    50% {background-color:rgb(236, 145, 232);}
+    100% {background-color:rgb(192, 104, 226);}
+}
+
+@-webkit-keyframes name2 {
+    0% {background-color:rgb(236, 145, 232);}
+    50% {background-color:rgb(192, 104, 226);}
+    100% {background-color:rgb(236, 145, 232);}
 }
