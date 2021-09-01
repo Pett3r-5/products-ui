@@ -1,3 +1,5 @@
 <div class="home-base">
-    <app-home-container></app-home-container>
+    <ng-container *ngIf="highlightedProducts.lenght>0">
+        <app-home-container [highlightedProducts]="highlightedProducts"></app-home-container>
+    </ng-container>
 </div>

@@ -1,0 +1,7 @@
+#header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    box-shadow: 1px 1px 3px #111111 !important;
+}

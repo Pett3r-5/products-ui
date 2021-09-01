@@ -1,1 +1,7 @@
-<div class="home-container"></div>
+<div class="home-container">
+    <ng-container *ngIf="!!highlightedProducts && highlightedProducts.lenght>0">
+        <div *ngFor="let product of highlightedProducts">
+            <app-product-item [product]="product"></app-product-item>
+        </div>
+    </ng-container>
+</div>
