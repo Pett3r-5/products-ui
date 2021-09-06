@@ -4,8 +4,8 @@
 }
 
 .home-base {
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    padding: 60px 0px;
     background-color: rgb(247, 181, 247);
     display: flex;
     justify-content: center;

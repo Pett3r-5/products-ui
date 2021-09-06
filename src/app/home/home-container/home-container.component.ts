@@ -11,7 +11,9 @@ export class HomeContainerComponent implements OnInit {
   @Input()
   public highlightedProducts:Product[]
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }

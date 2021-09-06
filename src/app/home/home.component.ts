@@ -6,7 +6,7 @@ import { ProductService } from 'src/services/product.service';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  changeDetection: ChangeDetectionStrategy.Default
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent implements OnInit {
   public highlightedProducts:Product[] = []
@@ -18,9 +18,10 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.productService.getHighlightedProductsMocked().subscribe((products:Product[])=>{
       console.log(products)
-      this.highlightedProducts.length = 0
-      this.highlightedProducts = [...products]
-      this.cdr.detectChanges();
+      this.highlightedProducts = []
+      this.cdr.detectChanges()
+      this.highlightedProducts = products.map(e=>e)
+      this.cdr.detectChanges()
     })
   }
 
