@@ -10,6 +10,7 @@ import { HomeContainerComponent } from './home/home-container/home-container.com
 import { ProductItemComponent } from './home/home-container/product-item/product-item.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderScrollDirective } from './header/header-scroll.directive';
 
 @NgModule({
   declarations: [
@@ -19,13 +20,15 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeContainerComponent,
     ProductItemComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    HeaderScrollDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
+  exports: [HeaderScrollDirective],
   providers: [],
   bootstrap: [AppComponent]
 })

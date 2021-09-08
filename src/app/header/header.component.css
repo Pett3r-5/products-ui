@@ -2,6 +2,17 @@
     position: fixed;
     height: 100px;
     width: 100%;
+    display: flex;
+    vertical-align: center;
     background-color: blueviolet;
     box-shadow: 1px 1px 3px #111111 !important;
+}
+
+#logo {
+    border-radius: 50px;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(202, 168, 233);
+    box-shadow: 1px 1px 1px #111111 !important;
 }
