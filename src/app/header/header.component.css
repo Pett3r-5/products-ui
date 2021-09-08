@@ -1,18 +1,36 @@
-#header {
+.header {
     position: fixed;
-    height: 100px;
     width: 100%;
     display: flex;
     vertical-align: center;
-    background-color: blueviolet;
-    box-shadow: 1px 1px 3px #111111 !important;
+    transition: height 100ms linear;
 }
 
-#logo {
+.header-top {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.header-small {
+    height: 50px;
+    background-color: rgb(202, 168, 233);
+}
+
+.logo {
     border-radius: 50px;
+    background-color: rgb(202, 168, 233);
+    box-shadow: 1px 1px 1px #111111 !important;
+    transition: height 100ms linear
+}
+
+.logo-top {
     margin: 10px;
     width: 80px;
     height: 80px;
-    background-color: rgb(202, 168, 233);
-    box-shadow: 1px 1px 1px #111111 !important;
+}
+
+.logo-smaller {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
 }
