@@ -6,11 +6,13 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeContainerComponent } from './home/home-container/home-container.component';
-import { ProductItemComponent } from './home/home-container/product-item/product-item.component';
+import { ProductsContainerComponent } from './home/products-container/products-container.component';
+import { ProductItemComponent } from './home/products-container/product-item/product-item.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderScrollDirective } from './header/header-scroll.directive';
+import { HomeBannerComponent } from './home/home-banner/home-banner.component';
+import { FooterContentComponent } from './footer/footer-content/footer-content.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +20,12 @@ import { HeaderScrollDirective } from './header/header-scroll.directive';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    HomeContainerComponent,
+    ProductsContainerComponent,
     ProductItemComponent,
     ProductDetailComponent,
-    HeaderScrollDirective
+    HeaderScrollDirective,
+    HomeBannerComponent,
+    FooterContentComponent
   ],
   imports: [
     BrowserModule,

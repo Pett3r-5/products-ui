@@ -1,0 +1,14 @@
+#footer-content {
+ width: 60%;
+ height:70%;
+ display: flex;
+ align-self: center;
+ vertical-align: center;
+ margin: auto;
+ background-color: red;
+}
+
+.column-ledge {
+    width: 1px;
+
+}

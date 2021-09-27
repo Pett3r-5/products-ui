@@ -5,10 +5,11 @@
 
 .home-base {
     height: auto;
-    padding: 60px 0px;
+    padding: 150px 0 0 0;
     background-color: rgb(247, 181, 247);
     display: flex;
     justify-content: center;
+    flex-direction: column;
     -webkit-animation:name 10s infinite;
 }
 

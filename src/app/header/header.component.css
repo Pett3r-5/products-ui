@@ -3,7 +3,8 @@
     width: 100%;
     display: flex;
     vertical-align: center;
-    transition: height 100ms linear;
+    transition: height 300ms linear;
+    box-shadow: 3px 1px 3px #111111 !important;
 }
 
 .header-top {
@@ -20,7 +21,7 @@
     border-radius: 50px;
     background-color: rgb(202, 168, 233);
     box-shadow: 1px 1px 1px #111111 !important;
-    transition: height 100ms linear
+    transition: height 300ms linear;
 }
 
 .logo-top {
