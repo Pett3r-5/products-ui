@@ -1,14 +1,18 @@
 #footer-content {
  width: 60%;
- height:70%;
+ height:300px;
  display: flex;
- align-self: center;
- vertical-align: center;
  margin: auto;
- background-color: red;
 }
 
 .column-ledge {
     width: 1px;
+    background-color: gray;
+    height: 90%;
+    margin: auto;
+}
 
+.footer-column {
+    margin: 0 2%;
+    color: white;
 }

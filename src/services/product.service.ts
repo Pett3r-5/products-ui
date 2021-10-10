@@ -85,4 +85,8 @@ export class ProductService {
     getProductById(id:string):Observable<any> {
         return this.httpClient.get(`/products?id=${id}`).pipe()
     }
+
+    getProductByIdMocked(id:string):Observable<any> {
+        return of({})
+    }
 }
